@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>basiccucumbertest</groupId>
-  <artifactId>basiccucumbertest</artifactId>
+  <groupId>uf-automationqa</groupId>
+  <artifactId>uf-automationqa</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <properties>
@@ -11,7 +11,7 @@
     <junit.version>4.13.1</junit.version>
     <cucumber.version>6.9.0</cucumber.version>
     <maven.compiler.version>3.8.1</maven.compiler.version>
-    <maven.surefire.version>2.22.2</maven.surefire.version>
+    <maven.surefire.version>2.12.4</maven.surefire.version>
 
   </properties>
 
@@ -28,7 +28,7 @@
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-junit</artifactId>
-      <version>${cucumber.version}</version>
+      <version>6.9.0</version>
       <scope>test</scope>
     </dependency>
 
@@ -50,6 +50,32 @@
       <artifactId>webdrivermanager</artifactId>
       <version>4.2.2</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-jvm-deps</artifactId>
+      <version>1.0.6</version>
+      <scope>provided</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-core</artifactId>
+      <version>6.9.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java8</artifactId>
+      <version>6.9.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-picocontainer</artifactId>
+      <version>6.9.0</version>
+      <scope>test</scope>
+    </dependency>
 
     <dependency>
       <groupId>tech.grasshopper</groupId>
@@ -68,7 +94,7 @@
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-testng</artifactId>
-      <version>${cucumber.version}</version>
+      <version>6.9.0</version>
       <scope>test</scope>
     </dependency>
 
@@ -85,8 +111,6 @@
       <artifactId>poi-ooxml</artifactId>
       <version>4.1.2</version>
     </dependency>
-
-
 
   </dependencies>
 
@@ -108,6 +132,12 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${maven.surefire.version}</version>
+        <configuration>
+          <includes>
+            <include>**/Runner*.java</include>
+          </includes>
+          <testFailureIgnore>true</testFailureIgnore>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -121,7 +151,7 @@
             </goals>
             <configuration>
               <includes>
-                <include>""/Runner.java</include>
+                <include>**/Runner*.java</include>
               </includes>
               <parallel>methods</parallel>
               <threadCount>4</threadCount>

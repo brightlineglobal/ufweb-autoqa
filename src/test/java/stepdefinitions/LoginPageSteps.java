@@ -70,7 +70,8 @@ public class LoginPageSteps {
 
     @Then("I click on logout link")
     public void i_click_on_logout_link()throws Exception {
-        Thread.sleep(4000);
+        Thread.sleep(3000);
         dashboard.clickOnLogOutLink();
+        Thread.sleep(300);
     }
 }
