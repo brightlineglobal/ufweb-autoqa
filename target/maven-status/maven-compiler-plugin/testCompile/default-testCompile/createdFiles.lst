@@ -1,0 +1,13 @@
+stepdefinitions\DashboardSteps.class
+stepdefinitions\ContentPageSteps.class
+stepdefinitions\NotificationTabSteps.class
+cucumberhooks\Hooks.class
+stepdefinitions\LoginPageSteps.class
+stepdefinitions\MessagingTabSteps.class
+stepdefinitions\MyMentorPageSteps.class
+stepdefinitions\HomePageSteps.class
+stepdefinitions\UserProfilePageSteps.class
+stepdefinitions\StoryPageSteps.class
+stepdefinitions\VirtualAssistantSteps.class
+testrunner\Runner.class
+stepdefinitions\PeoplePageSteps.class
