@@ -22,4 +22,10 @@ public class ConfigReader {
         return prop;
     }
 
+    public String getReportConfigPath(){
+        String reportConfigPath = prop.getProperty("C:\\Users\\ibm\\IdeaProjects\\uf-automationqa\\src\\test\\resources\\extent-config.xml");
+        if(reportConfigPath!= null) return reportConfigPath;
+        else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath");
+    }
+
 }

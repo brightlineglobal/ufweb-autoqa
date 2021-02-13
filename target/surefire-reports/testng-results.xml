@@ -1,104 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="testrunner.Runner" duration-ms="157435" started-at="2021-02-03T03:13:23Z" finished-at="2021-02-03T03:16:01Z">
+  <suite name="Surefire suite" duration-ms="206573" started-at="2021-02-12T23:55:44 CST" finished-at="2021-02-12T23:59:11 CST">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Runner@4b9e13df]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Command line test" duration-ms="157435" started-at="2021-02-03T03:13:23Z" finished-at="2021-02-03T03:16:01Z">
-      <class name="testrunner.Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.Runner@4b9e13df]" name="setUpClass" is-config="true" duration-ms="1798" started-at="2021-02-03T03:13:23Z" finished-at="2021-02-03T03:13:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Runner@4b9e13df]" name="runScenario" duration-ms="45891" started-at="2021-02-03T03:13:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-03T03:14:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user attempt to login without any credential"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[login page]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Runner@4b9e13df]" name="runScenario" duration-ms="31862" started-at="2021-02-03T03:14:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-03T03:14:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user attempt to login with incorrect email format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[login page]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Runner@4b9e13df]" name="runScenario" duration-ms="24206" started-at="2021-02-03T03:14:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-03T03:15:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user attempt to login without password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[login page]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Runner@4b9e13df]" name="runScenario" duration-ms="22317" started-at="2021-02-03T03:15:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-03T03:15:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user attempt to login with unregistered email account"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[login page]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Runner@4b9e13df]" name="runScenario" duration-ms="28200" started-at="2021-02-03T03:15:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-03T03:15:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["user login successfully with correct credential"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[login page]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.Runner@4b9e13df]" name="tearDownClass" is-config="true" duration-ms="3104" started-at="2021-02-03T03:15:58Z" finished-at="2021-02-03T03:16:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testrunner.Runner -->
-    </test> <!-- Command line test -->
-  </suite> <!-- testrunner.Runner -->
+    <test name="Surefire test" duration-ms="206573" started-at="2021-02-12T23:55:44 CST" finished-at="2021-02-12T23:59:11 CST">
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
