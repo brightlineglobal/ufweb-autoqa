@@ -150,4 +150,10 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+    <id>ghilmangadir</id>
+    <url>https://pkgs.dev.azure.com/ghilmangadir/_packaging/ghilmangadir/maven/v1</url>
+  </repository>
+  </distributionManagement>
 </project>

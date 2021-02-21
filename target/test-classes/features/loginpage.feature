@@ -1,11 +1,11 @@
 Feature: login page
   Description: validate login page function
 
-  Background: user is on login page
-    Given I open the browser
-    When I navigate to the login page
+ Background: user is on login page
+  Given I open the browser
+   When I navigate to the login page
 
-  Scenario: user attempt to login without any credential
+  Scenario: UFWEB-256 S1 user attempt to login without any credential
     And click on login button
     Then empty email error message "Email is required" should be displayed
 

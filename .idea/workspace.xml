@@ -5,124 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c3dc48b-f917-4fbb-b72b-f4ede073b86f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_4_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_klov_reporter_5_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_24_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java8_6_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_jvm_deps_1_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_picocontainer_6_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_typetools_0_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_configuration2_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReportResults.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DashboardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DashboardSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testrunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/contentpage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/homepage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/loginpage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/messagingtab.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/mymentorpage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/notificationtab.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/peoplepage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/storypage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/userprofilepage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/virtualassistant.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/loginpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/loginpage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/messagingtab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/messagingtab.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Dashboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConfigReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webdriver/SeleniumDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webdriver/SeleniumDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-testrunner.Runner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testrunner.Runner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testrunner.Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-testrunner.Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testrunner.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testrunner.Runner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberhooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberhooks/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/extent.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/contentpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/contentpage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/dashboard.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ContentPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ContentPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/loginpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/loginpage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/messagingtab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/messagingtab.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/DashboardSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/DashboardSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testrunner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testrunner/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/uf-automationqa-0.0.1-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-out/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-out/cucumber-reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uf-automationqa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/uf-automationqa.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +59,111 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ibm\IdeaProjects\uf-automationqa\src\test\java\testrunner" />
     </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: dashboard">
+    <configuration name="Feature: dashboard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" />
+      <option name="GLUE" value="stepdefinitions cucumberhooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="uf-automationqa" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: dashboard" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: UFWEBAUTO-148-S1 user verify and click links at dashboard sidebar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" />
+      <option name="GLUE" value="stepdefinitions cucumberhooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="uf-automationqa" />
+      <option name="NAME_FILTER" value="^UFWEBAUTO\-148\-S1 user verify and click links at dashboard sidebar$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^UFWEBAUTO\-148\-S1 user verify and click links at dashboard sidebar$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: UFWEBAUTO-148-S1 user verify and click links at dashboard sidebar" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: UFWEBAUTO-148-S2 user verify and click links at minimized sidebar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" />
+      <option name="GLUE" value="stepdefinitions cucumberhooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="uf-automationqa" />
+      <option name="NAME_FILTER" value="^UFWEBAUTO\-148\-S2 user verify and click links at minimized sidebar$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^UFWEBAUTO\-148\-S2 user verify and click links at minimized sidebar$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: UFWEBAUTO-148-S2 user verify and click links at minimized sidebar" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: UFWEBAUTO-148-S3 user verify clickable function icons on head bar and virtual assistant" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" />
+      <option name="GLUE" value="stepdefinitions cucumberhooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="uf-automationqa" />
+      <option name="NAME_FILTER" value="^UFWEBAUTO\-148\-S3 user verify clickable function icons on head bar and virtual assistant$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^UFWEBAUTO\-148\-S3 user verify clickable function icons on head bar and virtual assistant$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: UFWEBAUTO-148-S3 user verify clickable function icons on head bar and virtual assistant" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uf-automationqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testrunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testrunner" />
+      <option name="MAIN_CLASS_NAME" value="testrunner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: dashboard" />
+        <item itemvalue="Cucumber Java.Scenario: UFWEBAUTO-148-S3 user verify clickable function icons on head bar and virtual assistant" />
+        <item itemvalue="Cucumber Java.Scenario: UFWEBAUTO-148-S1 user verify and click links at dashboard sidebar" />
+        <item itemvalue="Cucumber Java.Scenario: UFWEBAUTO-148-S2 user verify and click links at minimized sidebar" />
+        <item itemvalue="JUnit.Runner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
