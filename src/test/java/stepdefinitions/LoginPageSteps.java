@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.*;
+import io.cucumber.java.gl.Logo;
 import org.junit.Assert;
 import pages.Dashboard;
 import pages.LoginPage;
@@ -74,4 +75,7 @@ public class LoginPageSteps {
         dashboard.clickOnLogOutLink();
         Thread.sleep(300);
     }
+
+
+
 }

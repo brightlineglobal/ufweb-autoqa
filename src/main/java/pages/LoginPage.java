@@ -18,10 +18,10 @@ public class LoginPage {
     }
 
     @FindBy(xpath = "//*[@id='navbar-main']/div/div[1]/a")
-    WebElement upFoundersLogo;
+    public WebElement upFoundersLogo;
 
     @FindBy(xpath = "//input[contains(@name,'username')]")
-    WebElement email;
+    public WebElement email;
 
     @FindBy(xpath = "//input[contains(@type,'password')]")
     WebElement password;
@@ -43,6 +43,31 @@ public class LoginPage {
 
     @FindBy(xpath = "//form/div[2]/p")
     WebElement notFound;
+
+    @FindBy(xpath = "//a[@href='/resetpw']")
+    public WebElement resetPasswordLink;
+
+    @FindBy(xpath = "//small[contains(.,'Reset Password')]")
+    public WebElement resetPasswordTitle;
+
+    @FindBy(xpath = "//input[contains(@formcontrolname,'email')]")
+    public WebElement emailInput;
+
+    @FindBy(xpath = "/html/body/app-root/app-resetpw/main/section/div[2]/div/div/div[1]/div/form/div[1]/p")
+    public WebElement emailRequireWarning;
+
+    @FindBy(xpath = "//small[contains(.,'Invalid email')]")
+    public WebElement invalidEmailWarning;
+
+
+    @FindBy(xpath = "//button[contains(@id,'submit')]")
+    public WebElement submitBtn;
+
+    @FindBy(xpath = "//a[@class='whitelink'][contains(.,'Back to Login?')]")
+    public WebElement backToLoginLink;
+
+    @FindBy(xpath = "//small[contains(.,'A Temporary password will be sent this email if a matching user record is found')]")
+    public WebElement confirmationMsg;
 
 
     public void clickOnLoginBtn() {
@@ -79,5 +104,32 @@ public class LoginPage {
 
     public boolean verifyLoginPageLogo() {
         return upFoundersLogo.isDisplayed();
+    }
+
+
+    public String getElementText(WebElement element){
+        return element.getText();
+    }
+
+    public void clickOnElement(WebElement element) throws Exception{
+        element.click();
+        Thread.sleep(2000);
+    }
+
+    public void sendKeys(WebElement element, String input) throws Exception {
+        element.sendKeys(input);
+        Thread.sleep(2000);
+    }
+
+    public String getCurrentURL(){
+        return driver.getCurrentUrl();
+    }
+
+    public boolean verifyElementIsDisplayed(WebElement element){
+        return element.isDisplayed();
+    }
+
+    public void clearElement(WebElement element){
+        element.clear();
     }
 }

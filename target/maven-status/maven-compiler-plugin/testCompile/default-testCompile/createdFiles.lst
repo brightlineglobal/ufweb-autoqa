@@ -1,4 +1,5 @@
 stepdefinitions\DashboardSteps.class
+cucumberhooks\customReportListener.class
 stepdefinitions\ContentPageSteps.class
 stepdefinitions\NotificationTabSteps.class
 cucumberhooks\Hooks.class

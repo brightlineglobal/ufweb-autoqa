@@ -11,7 +11,7 @@
     <junit.version>4.13.1</junit.version>
     <cucumber.version>6.9.0</cucumber.version>
     <maven.compiler.version>3.8.1</maven.compiler.version>
-    <maven.surefire.version>2.12.4</maven.surefire.version>
+    <maven.surefire.version>3.0.0-M5</maven.surefire.version>
 
   </properties>
 
@@ -50,44 +50,13 @@
       <artifactId>webdrivermanager</artifactId>
       <version>4.2.2</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
-    <dependency>
-      <groupId>io.cucumber</groupId>
-      <artifactId>cucumber-jvm-deps</artifactId>
-      <version>1.0.6</version>
-      <scope>provided</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
-    <dependency>
-      <groupId>io.cucumber</groupId>
-      <artifactId>cucumber-core</artifactId>
-      <version>6.9.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
-    <dependency>
-      <groupId>io.cucumber</groupId>
-      <artifactId>cucumber-java8</artifactId>
-      <version>6.9.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
-    <dependency>
-      <groupId>io.cucumber</groupId>
-      <artifactId>cucumber-picocontainer</artifactId>
-      <version>6.9.0</version>
-      <scope>test</scope>
-    </dependency>
+
+
 
     <dependency>
       <groupId>tech.grasshopper</groupId>
       <artifactId>extentreports-cucumber6-adapter</artifactId>
       <version>2.6.0</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>6.14.3</version>
       <scope>test</scope>
     </dependency>
 
@@ -104,6 +73,12 @@
       <artifactId>poi</artifactId>
       <version>4.1.2</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>5.0.5</version>
+    </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
     <dependency>
@@ -111,6 +86,24 @@
       <artifactId>poi-ooxml</artifactId>
       <version>4.1.2</version>
     </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java8</artifactId>
+      <version>${cucumber.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.vintage</groupId>
+      <artifactId>junit-vintage-engine</artifactId>
+      <version>5.7.1</version>
+      <scope>test</scope>
+    </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.13.1</version>
+          <scope>compile</scope>
+      </dependency>
 
   </dependencies>
 
@@ -133,8 +126,9 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${maven.surefire.version}</version>
         <configuration>
+          <testSourceDirectory>**/*Runner.java</testSourceDirectory>
           <includes>
-            <include>**/Runner*.java</include>
+            <include>**/*Runner.java</include>
           </includes>
           <testFailureIgnore>true</testFailureIgnore>
         </configuration>
@@ -151,7 +145,7 @@
             </goals>
             <configuration>
               <includes>
-                <include>**/Runner*.java</include>
+                <include>**/*Runner.java</include>
               </includes>
               <parallel>methods</parallel>
               <threadCount>4</threadCount>
@@ -162,4 +156,10 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+    <id>ghilmangadir</id>
+    <url>https://pkgs.dev.azure.com/ghilmangadir/_packaging/ghilmangadir/maven/v1</url>
+  </repository>
+  </distributionManagement>
 </project>
