@@ -5,20 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c3dc48b-f917-4fbb-b72b-f4ede073b86f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/UnPublishedFeatures/contentpage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReportResults.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ContentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ContentPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MessagingTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MessagingTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UserProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/UserProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/ContentPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ContentPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/DashboardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/DashboardSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/MessagingTabSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/MessagingTabSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/UserProfilePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/UserProfilePageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testrunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testrunner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/contentpage.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/UnPublishedFeatures/homepage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/loginpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/loginpage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/messagingtab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/messagingtab.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/mymentorpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/UnPublishedFeatures/mymentorpage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/notificationtab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/UnPublishedFeatures/notificationtab.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/peoplepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/UnPublishedFeatures/peoplepage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/storypage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/UnPublishedFeatures/storypage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/userprofilepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/userprofilepage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/virtualassistant.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/UnPublishedFeatures/virtualassistant.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ContentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ContentPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Dashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MessagingTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MessagingTab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/UserProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/UserProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/contentpage.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/dashboard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/homepage.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/loginpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/loginpage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/messagingtab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/messagingtab.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/mymentorpage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/notificationtab.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/peoplepage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/storypage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/userprofilepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/userprofilepage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/virtualassistant.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ContentPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/ContentPageSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/DashboardSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/DashboardSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/LoginPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/LoginPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/MessagingTabSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/MessagingTabSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/UserProfilePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/UserProfilePageSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testrunner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testrunner/Runner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-out/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-out/cucumber-reports.html" afterDir="false" />
     </list>
@@ -26,6 +60,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -53,14 +94,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/testrunner" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/uf-automationqaakti" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ibm\IdeaProjects\uf-automationqa\src\test\java\testrunner" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ibm\IdeaProjects\uf-automationqa\src\test\resources\features" />
+      <recent name="C:\Users\ibm\IdeaProjects\uf-automationqa\src\test\resources\UnPublishedFeatures" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: dashboard">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: dashboard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" />
@@ -80,15 +125,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: UFWEBAUTO-148-S1 user verify and click links at dashboard sidebar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: userprofilepage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/userprofilepage.feature" />
       <option name="GLUE" value="stepdefinitions cucumberhooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="uf-automationqa" />
-      <option name="NAME_FILTER" value="^UFWEBAUTO\-148\-S1 user verify and click links at dashboard sidebar$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^UFWEBAUTO\-148\-S1 user verify and click links at dashboard sidebar$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: UFWEBAUTO-148-S1 user verify and click links at dashboard sidebar" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: userprofilepage" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -100,15 +144,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: UFWEBAUTO-148-S2 user verify and click links at minimized sidebar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user reset password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/resetpwpage.feature" />
       <option name="GLUE" value="stepdefinitions cucumberhooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="uf-automationqa" />
-      <option name="NAME_FILTER" value="^UFWEBAUTO\-148\-S2 user verify and click links at minimized sidebar$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^UFWEBAUTO\-148\-S2 user verify and click links at minimized sidebar$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: UFWEBAUTO-148-S2 user verify and click links at minimized sidebar" />
+      <option name="NAME_FILTER" value="^user reset password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user reset password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user reset password" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,15 +164,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: UFWEBAUTO-148-S3 user verify clickable function icons on head bar and virtual assistant" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user verify reset password email received and use the password to relogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/resetpwpage.feature" />
       <option name="GLUE" value="stepdefinitions cucumberhooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="uf-automationqa" />
-      <option name="NAME_FILTER" value="^UFWEBAUTO\-148\-S3 user verify clickable function icons on head bar and virtual assistant$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^UFWEBAUTO\-148\-S3 user verify clickable function icons on head bar and virtual assistant$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: UFWEBAUTO-148-S3 user verify clickable function icons on head bar and virtual assistant" />
+      <option name="NAME_FILTER" value="^user verify reset password email received and use the password to relogin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user verify reset password email received and use the password to relogin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user verify reset password email received and use the password to relogin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: dashboard" />
-        <item itemvalue="Cucumber Java.Scenario: UFWEBAUTO-148-S3 user verify clickable function icons on head bar and virtual assistant" />
-        <item itemvalue="Cucumber Java.Scenario: UFWEBAUTO-148-S1 user verify and click links at dashboard sidebar" />
-        <item itemvalue="Cucumber Java.Scenario: UFWEBAUTO-148-S2 user verify and click links at minimized sidebar" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: userprofilepage" />
+        <item itemvalue="Cucumber Java.Feature: dashboard" />
+        <item itemvalue="Cucumber Java.Scenario: user verify reset password email received and use the password to relogin" />
+        <item itemvalue="Cucumber Java.Scenario: user reset password" />
       </list>
     </recent_temporary>
   </component>

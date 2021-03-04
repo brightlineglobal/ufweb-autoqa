@@ -41,6 +41,7 @@ public class Dashboard {
     @FindBy(xpath = "//div[@class='dropdown-menu-item p-3 pointer'][contains(.,'Logout')]")
     WebElement logout;
 
+
     //@FindBy(xpath="/html/body/app-root/app-admin-layout/div/div[2]/app-main-posts/div/mat-card/mat-card-content/div/form/div[1]/div/quill-editor/div/div[1]")
     @FindBy(xpath = "//*[contains(@data-placeholder,'Post something')]")
     WebElement placeHolder;
@@ -136,6 +137,9 @@ public class Dashboard {
     @FindBy(xpath = "//div[@class='userImg ng-star-inserted']")
     public WebElement userIcon;
 
+    @FindBy(xpath = "//div[@class='mat-tab-label-content'][contains(.,'Change password')]")
+    public WebElement changePasswordLink;
+
 
     //@FindBy(xpath = "//i[contains(.,'message')]")
     @FindBy(xpath = "//i[@class='material-icons notif'][contains(.,'message')]")    public WebElement messageIcon;
@@ -191,9 +195,6 @@ public class Dashboard {
         js.executeScript("arguments[0].scrollIntoView();", logout);
         js.executeScript("arguments[0].click()", logout);
 
-        // wait = new WebDriverWait(driver,15);
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@class='pointer nav-item'][contains(.,'Log out')]")));
-        // logout.click();
     }
 
     public String getPageTitle() {
@@ -311,12 +312,6 @@ public class Dashboard {
         js.executeScript("arguments[0].scrollIntoView();", messageIcon);
         js.executeScript("arguments[0].click()", messageIcon);
         Thread.sleep(2000);
-        //if(userPagePopupWindow.isDisplayed()){
-        //  userPagePopupWindow.click();
-        //Thread.sleep(3000);
-        //  System.out.println("popup window is closed");
-        //} else
-
         System.out.println("message icon is clicked");
         Thread.sleep(3000);
         js.executeScript("arguments[0].click()", messageIcon);        Thread.sleep(3000);

@@ -35,5 +35,5 @@ Feature: Dashboard Functions
     And click on user's avatar to go to user profile page and close popup window if show up
     Then verify, open and close each of the following clickable function icons on head bar
       |message|notifications|account_circle|
-    And click to open and close virtual assistant icon and close
+    And click to open and close virtual assistant icon
     Then I click on logout link

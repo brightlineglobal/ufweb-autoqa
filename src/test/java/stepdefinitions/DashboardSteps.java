@@ -96,7 +96,7 @@ public class DashboardSteps {
         dashboard.clickOnElement(dashboard.mentorLink);
         Assert.assertTrue(dashboard.waitForElementTobeVisible(dashboard.mentorNavBarTitle,15));
         dashboard.clickOnElement(dashboard.storyLink);
-        dashboard.clickOnElement(dashboard.closePopupWindowBtn);
+        //dashboard.clickOnElement(dashboard.closePopupWindowBtn);
         Assert.assertTrue(dashboard.waitForElementTobeVisible(dashboard.storyNavBarTitle,15));
         dashboard.clickOnElement(dashboard.peopleLink);
         Assert.assertTrue(dashboard.waitForElementTobeVisible(dashboard.peopleNavBarTitle,15));
@@ -141,7 +141,7 @@ public class DashboardSteps {
         dashboard.clickOnElement(dashboard.mentorLinkMiniBar);
         Assert.assertTrue(dashboard.waitForElementTobeVisible(dashboard.mentorNavBarTitle,15));
         dashboard.clickOnElement(dashboard.storyLinkMinibar);
-        dashboard.clickOnElement(dashboard.closePopupWindowBtn);
+        //dashboard.clickOnElement(dashboard.closePopupWindowBtn);
         Assert.assertTrue(dashboard.waitForElementTobeVisible(dashboard.storyNavBarTitle,15));
         dashboard.clickOnElement(dashboard.peopleLinkMiniBar);
         Assert.assertTrue(dashboard.waitForElementTobeVisible(dashboard.peopleNavBarTitle,15));
@@ -177,7 +177,7 @@ public class DashboardSteps {
 
 
 
-    @And("click to open and close virtual assistant icon and close")
+    @And("click to open and close virtual assistant icon")
     public void clickToOpenAndCloseVirtualAssistantIconAndVerifyButton() throws Exception{ dashboard.clickOnElement(dashboard.homeLink);Thread.sleep(4000);
        dashboard.switchToIframeVirtualAssistance();Thread.sleep(4000);
         dashboard.clickOnVirtualAssistant(); Thread.sleep(3000);
